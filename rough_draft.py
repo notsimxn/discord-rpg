@@ -20,7 +20,7 @@ def main() :
 def pomodoro() :
     for i in range(3) :
         print("Study")
-        sleep(STUDY_TIME) # may need to change to work on mutible bots at once later...
+        sleep(STUDY_TIME) 
         print("Break")
         sleep(SHORT_BREAK)
     
